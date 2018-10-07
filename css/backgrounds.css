@@ -1,0 +1,60 @@
+body{
+  width: 230px;
+  text-align: center;
+}
+
+#popup-title{
+  font-size: 1.4em;
+  margin-bottom: 10px;
+}
+
+#btnEntrances{
+  width: 99%;
+}
+
+#btnAccessTime{
+  width: 99%;
+}
+
+#btnMaxAccessTime{
+  width: 99%;
+}
+
+#hours{
+  width: 15%;
+  text-align: right;
+}
+
+#minute{
+  width: 15%;
+  text-align: center;
+}
+
+#seconds{
+  width: 15%;
+  text-align: center;
+}
+
+#btnSubmit{
+  margin-top: 10px;
+}
+
+#btnClear{
+  margin-left: 10px;
+}
+
+#popup-footer{
+  margin-top: 7px;
+  position: relative;
+}
+
+#popup-copyright{
+  color: #888888;
+  font-size: 1em;
+}
+
+#popup-link{
+  text-decoration: underline;
+  cursor: pointer;
+  color: inherit;
+}

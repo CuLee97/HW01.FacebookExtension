@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Quản lý thời gian sử dụng facebook</title>
+	<link type="text/css" rel="stylesheet" href="../css/backgrounds.css">
+</head>
+<body>
+	<div id="popup-title" onload="compute()">Quản lý <br> Thời gian sử dụng facebook<hr></div>
+	<div>
+		<button id="btnEntrances">Số lần đã truy cập vào facebook</button>
+		<p id="entrances"></p>
+	</div>
+	<div>
+		<button id="btnAccessTime">Thời gian đã truy cập vào facebook</button>
+		<p id="accessTime"></p>
+	</div>
+	<div>
+		<button id="btnMaxAccessTime">Thời gian được sử dụng facebook</button>
+		<p id="maxAccessTime"></p>
+	</div>
+	<div>
+		<p><b>Giới hạn thời gian sử dụng facebook</b></p>
+		<label>
+			<input id="hours" type="number" min="0" max="24"> giờ
+			<input id="minute" type="number" min="0" max="60"> phút
+			<input id="seconds" type="number" min="0" max="60"> giây
+		</label>
+		<span>
+			<button id="btnSubmit" title="Thiết lập giới hạn thời gian sử dụng facebook">Tạo mới</button>
+			<button id="btnClear" title="Xóa hết dữ liệu">Làm mới</button>
+		</span>
+	</div>
+	<div id="popup-footer">
+		<span id="popup-copyright">
+			Bản quyền &copy; 2018
+			<a id="popup-link" href="https://github.com/CuLee97/HW01.FacebookExtension" target="_blank">
+				Chi tiết
+			</a>
+		</span>
+	</div>
+</body>
+<script src="../popup.js"></script>
+</html>
+
+<!-- Entrances: Số lần truy cập -->
+<!-- Reference: https://github.com/daattali/smileyfy-my-facebook-extension -->
